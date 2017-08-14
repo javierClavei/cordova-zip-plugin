@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <plugin xmlns="http://phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="org.chromium.zip" 
-        version="2.1.100">    
+        version="2.1.101">    
     <name>Zip</name>
     <description>Unzips zip files</description>
     <license>Apache 2.0</license>
@@ -10,7 +10,7 @@
         <engine name="cordova" version=">=3.3.0" />
     </engines>
 
-    <dependency id="org.apache.cordova.file" version="1.0.1" />
+    <dependency id="org.apache.cordova.file" version="4.3.3" />
 
     <js-module src="zip.js" name="Zip">
         <clobbers target="zip" />
